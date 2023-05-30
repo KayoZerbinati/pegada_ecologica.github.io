@@ -1,0 +1,158 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropdown-button {
+    display: block;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu li:hover {
+    background-color: #f9f9f9;
+}
+.menu li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropdown-button {
+    display: block;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu li:hover {
+    background-color: #f9f9f9;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu-button {
+    display: block;
+    color: black;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.subsubmenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.subsubmenu-button {
+    display: block;
+    color: black;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu-item:hover .subsubmenu {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("pegada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#pe{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: white;
+}
+#iniciar {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#iniciar a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+#iniciar a:hover {
+  background-color: #e0e0e0;
+}
